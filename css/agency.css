@@ -207,15 +207,15 @@ font-size:18px;
 }
 .btn-circle{
 font-size:26px;
-width:65px;
-height:65px;
+width:68px;
+height:68px;
 margin-top:15px;
 line-height:45px;
 -webkit-transition:background .3s ease-in-out;
 -moz-transition:background .3s ease-in-out;
 transition:background .3s ease-in-out;
 color:#fff;
-border:2px solid blue;
+border:3px solid blue;
 border-radius:100%!important;
 background:0 0;
 }
@@ -345,4 +345,8 @@ background:#000000;
 color:#ffffff;
 padding-top:40px;
 padding-bottom:40px;
+}
+.privacy-section a{
+color:#ffffff;
+text-decoration:none;
 }
