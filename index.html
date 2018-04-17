@@ -170,11 +170,11 @@
 	
    
    
-      <video autoplay loop muted poster="screenshot.jpg" id="background">
+      <video autoplay loop muted poster="img/videoreplacement.jpg" id="background">
 
           <source src="videos/waves.mp4" type="video/mp4">
 		  
-		  <source src="videos/waves.ogg" type="video/ogg">
+		
 
       </video>
  
@@ -401,42 +401,36 @@
 	
 	$(document).ready(function() {
 
-window.sr = ScrollReveal({ reset: true });
+      window.sr = ScrollReveal({ reset: true });
 
-// Customizing a reveal set
-
-
-window.sr = ScrollReveal();
-sr.reveal('.foo', { duration: 200 });
+      // Customizing a reveal set
+       window.sr = ScrollReveal();
+       sr.reveal('.foo', { duration: 200 });
 
 
 
 
-	var typed = new Typed('.type', {
-  strings: ["WHERE FUN HAPPENS!",],
-  typeSpeed: 100,
-  loop: false
-});
+	   var typed = new Typed('.type', {
+       strings: ["WHERE FUN HAPPENS!",],
+        //THIS IS THE FUCKING PERFECT SPEED!
+         typeSpeed: 200,
+         loop: false
+         });
 
-});
+       });
 
-
-
- $(document).ready(function() {
+      $(document).ready(function() {
+       //THIS NEEDS TO BE FIXED NIGGA AND THE IMAGE TOO/RESPONSIVE ON MOBILE
+       $("#owl-demo3").owlCarousel({
+         autoPlay : true,
+         navigation: true,
+	     pagination: false,
+	     touchDrag: true,
+         autoHeight : true,
+         items : 1
+          });
  
-  $("#owl-demo3").owlCarousel({
-      autoPlay : true,
-      navigation: true,
-	  pagination: false,
-	  touchDrag: true,
-      autoHeight : true,
-     
-      items : 1
-     
- 
-  });
- 
-});
+         });
 
 
 
