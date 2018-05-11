@@ -280,6 +280,14 @@ text-decoration:none;
 background:blue;
 transition:background .5s;
 }
+#uknowit{
+margin:0 auto;
+margin-top:10px;
+-moz-box-shadow: 0 0 10px blue;
+-webkit-box-shadow: 0 0 10px blue;
+box-shadow: 0 0 10px blue;
+}
+
 
 
 
@@ -353,4 +361,9 @@ color:#ffffff;
 .privacy-section a{
 color:#ffffff;
 text-decoration:none;
+}
+#uknow{
+-moz-box-shadow: 0 0 10px blue;
+-webkit-box-shadow: 0 0 10px blue;
+box-shadow: 0 0 10px blue;
 }
